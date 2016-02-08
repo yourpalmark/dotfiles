@@ -11,7 +11,7 @@ Action / Package | APT | Homebrew
 **tmux** |`sudo apt-get install tmux` | `brew install tmux`
 **Vim** | | `brew install macvim --with-override-system-vim`
 
-Install [Prezto]
+Install [Prezto]  
 Install [Vundle]  
 Include .vimrc file  
 Build [YouCompleteMe]
