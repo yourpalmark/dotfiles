@@ -10,6 +10,7 @@ Action / Package | APT | Homebrew
  | `q` - quit | `q` - quit
 **tmux** |`sudo apt-get install tmux` | `brew install tmux`
 **Vim** | | `brew install macvim --with-override-system-vim`
+**Node** | `sudo apt-get install nodejs` | `brew install node`
 
 Install [Prezto]  
 Install [Vundle]  
