@@ -14,8 +14,10 @@ Action / Package | APT | Homebrew
 Install [Prezto]  
 Install [Vundle]  
 Include .vimrc file  
-Build [YouCompleteMe]
+Setup [YouCompleteMe]
+Setup [Tern]
 
    [Prezto]: https://github.com/sorin-ionescu/prezto
    [Vundle]: https://github.com/VundleVim/Vundle.vim
    [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
+   [Tern]: https://github.com/ternjs/tern_for_vim

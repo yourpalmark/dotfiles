@@ -15,6 +15,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin '13k/vim-nginx'
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-misc'
+Plugin 'ternjs/tern_for_vim'
 Plugin 'altercation/vim-colors-solarized'
 " }}}
 
