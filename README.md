@@ -1,36 +1,44 @@
 # Shell Setup
 
-``` sh
-sudo apt-get update
-sudo apt-get upgrade
-```
+APT | Homebrew
+--- | ---
+`sudo apt-get update` | `brew update`
+`sudo apt-get upgrade` | `brew upgrade --all`
 
 #### Ag
-``` sh
-sudo apt-get install silversearcher-ag
-```
+
+APT | Homebrew
+--- | ---
+`sudo apt-get install silversearcher-ag` | `brew install the_silver_searcher`
 
 #### Git
-``` sh
-sudo apt-get install git
-```
+
+APT | Homebrew
+--- | ---
+`sudo apt-get install git` | `brew install git`
 
 #### Zsh
-``` sh
-sudo apt-get install zsh
-q
-```
+
+APT | Homebrew
+--- | ---
+`sudo apt-get install zsh` | `brew install zsh`
+
+`q` - quit
 
 Install [Prezto]
 
 #### tmux
 
-``` sh
-sudo apt-get install tmux
-tmux new -s [session_name]
-```
+APT | Homebrew
+--- | ---
+`sudo apt-get install tmux` | `brew install tmux`
 
 #### Vim
+
+APT | Homebrew
+--- | ---
+ | `brew install macvim --with-override-system-vim`
+
 Install [Vundle]  
 Include .vimrc file  
 Build [YouCompleteMe]
