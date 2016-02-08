@@ -16,6 +16,7 @@ Plugin '13k/vim-nginx'
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-misc'
 Plugin 'ternjs/tern_for_vim'
+Plugin 'tpope/vim-fugitive'
 Plugin 'altercation/vim-colors-solarized'
 " }}}
 
