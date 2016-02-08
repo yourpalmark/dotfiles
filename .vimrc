@@ -7,17 +7,17 @@ Plugin 'VundleVim/Vundle.vim'
 " }}}
 
 " Vundle Plugins {{{
-Plugin 'scrooloose/nerdtree'
+Plugin '13k/vim-nginx'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'Raimondi/delimitMate'
-Plugin '13k/vim-nginx'
-Plugin 'xolox/vim-lua-ftplugin'
-Plugin 'xolox/vim-misc'
+Plugin 'scrooloose/nerdtree'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'xolox/vim-lua-ftplugin'
+Plugin 'xolox/vim-misc'
 " }}}
 
 " Vundle {{{
