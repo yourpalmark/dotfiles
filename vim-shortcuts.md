@@ -2,6 +2,6 @@
 
 #### Commands
 
-| Action       | Command                  |
-|--------------|--------------------------|
-|Switch windows|```ctrl```-```w``` ```w```|
+Action | Command
+--- | ---
+Switch windows | `ctrl`-`w` `w`
