@@ -15,6 +15,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin '13k/vim-nginx'
 Plugin 'xolox/vim-lua-ftplugin'
 Plugin 'xolox/vim-misc'
+Plugin 'altercation/vim-colors-solarized'
 " }}}
 
 " Vundle {{{
@@ -36,7 +37,9 @@ set number
 " }}}
 
 " Syntax {{{
-syntax on
+syntax enable
+set background=dark
+colorscheme solarized
 " }}}
 
 " Ack {{{
