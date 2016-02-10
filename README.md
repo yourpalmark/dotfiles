@@ -7,6 +7,7 @@ Action / Package | APT | Homebrew
 **Ag** | `sudo apt-get install silversearcher-ag` | `brew install the_silver_searcher`
 **Git** | `sudo apt-get install git` | `brew install git`
 **Zsh** | `sudo apt-get install zsh` | `brew install zsh`
+ | `zsh` | `zsh`
  | `q` - quit | `q` - quit
 **tmux** |`sudo apt-get install tmux` | `brew install tmux`
 **Vim** | | `brew install macvim --with-override-system-vim`
