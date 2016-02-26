@@ -8,6 +8,8 @@ Action | Prefix Shortcut
 --- |---
 Resize pane | `meta`-`arrow`
 Respawn pane | `:respawn-pane -k`
+Save environment | `ctrl`-`s`
+Restore environment | `ctrl`-`r`
 
 #### Commands
 
