@@ -15,6 +15,7 @@ Action / Package | APT | Homebrew
 Install [Prezto]  
 Install [tmux]  
 Install [tmux Plugin Manager]  
+Install [tmux Resurrect]  
 Install [Vundle]  
 Include .vimrc file  
 Setup [YouCompleteMe]  
