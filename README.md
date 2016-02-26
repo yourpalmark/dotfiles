@@ -31,6 +31,7 @@ Action / Package | APT | Homebrew
    [Prezto]: https://github.com/sorin-ionescu/prezto
    [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
+   [tmux Resurrect]: https://github.com/tmux-plugins/tmux-resurrect
    [Vundle]: https://github.com/VundleVim/Vundle.vim
    [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
    [Tern]: https://github.com/ternjs/tern_for_vim
