@@ -8,6 +8,14 @@ Install [Homebrew]
 `brew update`  
 `brew upgrade`  
 `brew doctor`  
+`sudo vim /etc/paths`  
+>Edit to look like this:  
+`/usr/local/bin`  
+`/usr/bin`  
+`/bin`  
+`/usr/local/sbin`  
+`/usr/sbin`  
+`/sbin`  
 
 **Git**  
 `brew install git`  
