@@ -18,14 +18,14 @@ Install [Homebrew]
 **Stow**  
 `brew install stow`  
 
-**Python**
-`brew install python`
-`cd /usr/local/bin/ && ln -s python3 python`
+**Python**  
+`brew install python`  
+`cd /usr/local/bin/ && ln -s python3 python`  
 
-**dotfiles**
+**dotfiles**  
 `git clone git@github.com:yourpalmark/dotfiles.git ~/`  
 
-**Git**
+**Git**  
 `cd ~/dotfiles && stow git`  
 
 **Fish**  
@@ -43,7 +43,7 @@ Install [Homebrew]
 **Theme**  
 Install [Solarized for ITerm2]  
 `brew tap caskroom/fonts`  
-`brew cask install font-meslo-nerd-font`
+`brew cask install font-meslo-nerd-font`  
 `omf install agnoster`  
 Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased  
 
