@@ -1,38 +1,73 @@
 # Shell Setup
 
-Action / Package | APT | Homebrew
---- | --- | ---
-**Update** | `sudo apt-get update` | `brew update`
- | `sudo apt-get upgrade` | `brew upgrade --all`
-**Ag** | `sudo apt-get install silversearcher-ag` | `brew install the_silver_searcher`
-**Git** | `sudo apt-get install git` | `brew install git`
-**Zsh** | `sudo apt-get install zsh` | `brew install zsh`
- | `zsh` | `zsh`
- | `q` - quit | `q` - quit
-**Vim** | | `brew install macvim --with-override-system-vim`
-**Node** | `sudo apt-get install nodejs` | `brew install node`
+**ITerm2**  
+Install [ITerm2]  
 
-Install [Prezto]  
+**Homebrew**  
+Install [Homebrew]  
+`brew update`  
+`brew upgrade`  
+`brew doctor`  
+
+**Git**  
+`brew install git`  
+
+**Tree**  
+`brew install tree`  
+
+**Stow**  
+`brew install stow`  
+
+**Python**
+`brew install python`
+`cd /usr/local/bin/ && ln -s python3 python`
+
+**dotfiles**
+`git clone git@github.com:yourpalmark/dotfiles.git ~/`  
+
+**Git**
+`cd ~/dotfiles && stow git`  
+
+**Fish**  
+`brew install fish`  
+`sudo vim /etc/shells`  
+>Add  
+`/usr/local/bin/fish`  
+
+`cd ~/dotfiles && stow fish`  
+
+**Oh My Fish**  
+`curl -L https://get.oh-my.fish | fish`  
+`omf update`  
+
+**Theme**  
+Install [Solarized for ITerm2]  
+`brew tap caskroom/fonts`  
+`brew cask install font-meslo-nerd-font`
+`omf install agnoster`  
+Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased  
+
+**Vim**  
+`brew install vim --with-override-system-vi`  
+Install [Vundle]  
+Setup [YouCompleteMe]  
+`cd ~/dotfiles && stow vim`  
+
+**Ag**  
+`brew install the_silver_searcher`  
+
+**tmux**  
 Install [tmux]  
 Install [tmux Plugin Manager]  
 Install [tmux Resurrect]  
-Install [Vundle]  
-Include .vimrc file  
-Setup [YouCompleteMe]  
-Setup [Tern]  
+`cd ~/dotfiles && stow tmux`  
 
-Requirements
-
-Action / Package | APT | Homebrew
---- | --- | ---
-**Automake** | `sudo apt-get install automake` | 
-**libevent** | `sudo apt-get install libevent-dev` | 
-**ncurses** | `sudo apt-get install libncurses-dev` | 
-
-   [Prezto]: https://github.com/sorin-ionescu/prezto
+   [ITerm2]: https://www.iterm2.com/
+   [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+   [Homebrew]: https://brew.sh/
+   [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
    [tmux Resurrect]: https://github.com/tmux-plugins/tmux-resurrect
    [Vundle]: https://github.com/VundleVim/Vundle.vim
    [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
-   [Tern]: https://github.com/ternjs/tern_for_vim

@@ -1,3 +1,7 @@
+" Shell {{{
+set shell=/bin/bash
+" }}}
+
 " Vundle {{{
 set nocompatible
 filetype off
@@ -32,6 +36,16 @@ set softtabstop=4
 set shiftwidth=4
 set modelines=1
 set autoindent
+" }}}
+
+" Backspace {{{
+set backspace=2 " make backspace work like most other programs
+" }}}
+
+" Cursor {{{
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 " }}}
 
 " Lines {{{
