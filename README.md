@@ -17,18 +17,14 @@ Install [Homebrew]
 `/usr/sbin`  
 `/sbin`  
 
-**Git**  
-`brew install git`  
-
 **Tree**  
 `brew install tree`  
 
 **Stow**  
 `brew install stow`  
 
-**Python**  
-`brew install python`  
-`cd /usr/local/bin/ && ln -s python3 python`  
+**Git**  
+`brew install git`  
 
 **dotfiles**  
 `git clone git@github.com:yourpalmark/dotfiles.git ~/`  
@@ -61,6 +57,19 @@ Install [Vundle]
 Setup [YouCompleteMe]  
 `cd ~/dotfiles && stow vim`  
 
+**Perl**  
+Install [Perlbrew]  
+`perlbrew init`  
+`brew install berkeley-db`  
+`perlbrew available`  
+`perlbrew install perl-x.x.x`  
+`perlbrew switch perl-x.x.x`  
+`perlbrew install-cpanm`  
+
+**Python**  
+`brew install python`  
+`cd /usr/local/bin/ && ln -s python3 python`  
+
 **Ag**  
 `brew install the_silver_searcher`  
 
@@ -73,6 +82,7 @@ Install [tmux Resurrect]
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
    [Homebrew]: https://brew.sh/
+   [Perlbrew]: https://perlbrew.pl/
    [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
