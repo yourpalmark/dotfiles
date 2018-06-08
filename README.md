@@ -76,7 +76,7 @@ Install [Perlbrew]
 **tmux**  
 Install [tmux]  
 Install [tmux Plugin Manager]  
-Install [tmux Resurrect]  
+Press `prefix + I` to install plugins  
 `cd ~/dotfiles && stow tmux`  
 
    [ITerm2]: https://www.iterm2.com/
@@ -86,6 +86,5 @@ Install [tmux Resurrect]
    [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
-   [tmux Resurrect]: https://github.com/tmux-plugins/tmux-resurrect
    [Vundle]: https://github.com/VundleVim/Vundle.vim
    [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
