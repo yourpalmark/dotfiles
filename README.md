@@ -37,8 +37,9 @@ Install [Homebrew]
 `sudo vim /etc/shells`  
 >Add  
 `/usr/local/bin/fish`  
+`fish`  
 
-`cd ~/dotfiles && stow fish`  
+`cd ~/dotfiles; and stow fish`  
 
 **Oh My Fish**  
 `curl -L https://get.oh-my.fish | fish`  
@@ -53,9 +54,14 @@ Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased
 
 **Vim**  
 `brew install vim --with-override-system-vi`  
-Install [Vundle]  
 Setup [YouCompleteMe]  
-`cd ~/dotfiles && stow vim`  
+`cd ~/dotfiles; and stow vim`  
+`vim`  
+>`:PackUpdate`  
+
+**Neovim**  
+`brew install neovim`  
+`cd ~/dotfiles; and stow nvim`  
 
 **Perl**  
 Install [Perlbrew]  
@@ -77,7 +83,7 @@ Install [Perlbrew]
 Install [tmux]  
 Install [tmux Plugin Manager]  
 Press `prefix + I` to install plugins  
-`cd ~/dotfiles && stow tmux`  
+`cd ~/dotfiles; and stow tmux`  
 
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
@@ -86,5 +92,4 @@ Press `prefix + I` to install plugins
    [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
-   [Vundle]: https://github.com/VundleVim/Vundle.vim
    [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe

@@ -2,31 +2,23 @@
 set shell=/bin/bash
 " }}}
 
-" Vundle {{{
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
+" Minpac {{{
+packadd minpac
+call minpac#init()
+command! PackUpdate call minpac#update()
+command! PackClean call minpac#clean()
 " }}}
 
-" Vundle Plugins {{{
-Plugin '13k/vim-nginx'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'Raimondi/delimitMate'
-Plugin 'scrooloose/nerdtree'
-Plugin 'ternjs/tern_for_vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'xolox/vim-lua-ftplugin'
-Plugin 'xolox/vim-misc'
+" Minpac Start Plugins {{{
+call minpac#add('altercation/vim-colors-solarized')
+call minpac#add('jiangmiao/auto-pairs')
+call minpac#add('mileszs/ack.vim')
+call minpac#add('tpope/vim-unimpaired')
 " }}}
 
-" Vundle {{{
-call vundle#end()
-filetype plugin indent on
+" Minpac Opt Plugins {{{
+call minpac#add('k-takata/minpac', {'type': 'opt'})
+call minpac#add('tpope/vim-scriptease', {'type': 'opt'})
 " }}}
 
 " Spaces & Tabs {{{

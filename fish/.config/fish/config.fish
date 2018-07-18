@@ -10,3 +10,6 @@ set PATH ~/perl5/perlbrew/bin $PATH
 set PATH /usr/local/openresty/nginx/sbin $PATH
 set PATH /usr/local/openresty/bin $PATH
 set PATH /usr/local/openresty/luajit/bin $PATH
+
+# Neovim Remote
+set PATH ~/Library/Python/3.7/bin $PATH
