@@ -76,6 +76,11 @@ Install [Perlbrew]
 `brew install python`  
 `cd /usr/local/bin/ && ln -s python3 python`  
 
+**fzf**  
+`brew install fzf`  
+`/usr/local/opt/fzf/install`
+``
+
 **Ag**  
 `brew install the_silver_searcher`  
 

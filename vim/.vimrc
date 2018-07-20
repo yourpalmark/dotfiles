@@ -51,6 +51,10 @@ colorscheme solarized
 set t_Co=256
 " }}}
 
+" fzf {{{
+set rtp+=/usr/local/opt/fzf
+" }}}
+
 " Ack {{{
 if executable('ag')
     let g:ackprg = 'ag --vimgrep'
