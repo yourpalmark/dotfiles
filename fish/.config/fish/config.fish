@@ -2,6 +2,9 @@
 set -g theme_color_scheme solarized
 set -g theme_nerd_fonts yes
 
+# nvm
+set -Ux NVM_DIR ~/.nvm
+
 # Perlbrew
 set PATH ~/perl5/perlbrew/bin $PATH
 . ~/perl5/perlbrew/etc/perlbrew.fish

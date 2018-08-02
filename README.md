@@ -63,6 +63,14 @@ Setup [YouCompleteMe]
 `brew install neovim`  
 `cd ~/dotfiles; and stow nvim`  
 
+**Node**  
+`brew install nvm`  
+`mkdir ~/.nvm`  
+`omf install https://github.com/edc/bass`  
+`nvm install node`
+`nvm use node`
+`brew install yarn --without-node`
+
 **Perl**  
 Install [Perlbrew]  
 `perlbrew init`  
