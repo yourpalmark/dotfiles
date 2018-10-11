@@ -32,13 +32,22 @@ Install [Homebrew]
 **Git**  
 `cd ~/dotfiles && stow git`  
 
+**Python**  
+`brew install python`  
+`cd /usr/local/bin/; and ln -s python3 python; and ln -s pip3 pip`  
+
+**fzf**  
+`brew install fzf`  
+`/usr/local/opt/fzf/install`  
+
 **Fish**  
 `brew install fish`  
 `sudo vim /etc/shells`  
 >Add  
 `/usr/local/bin/fish`  
-`fish`  
 
+`chsh -s /usr/local/bin/fish`  
+`fish`  
 `cd ~/dotfiles; and stow fish`  
 
 **Oh My Fish**  
@@ -49,11 +58,12 @@ Install [Homebrew]
 Install [Solarized for ITerm2]  
 `brew tap caskroom/fonts`  
 `brew cask install font-meslo-nerd-font`  
-`omf install agnoster`  
+`omf theme agnoster`  
 Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased  
 
 **Vim**  
 `brew install vim --with-override-system-vi`  
+`git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac`  
 Setup [YouCompleteMe]  
 `cd ~/dotfiles; and stow vim`  
 `vim`  
@@ -62,6 +72,7 @@ Setup [YouCompleteMe]
 **Neovim**  
 `brew install neovim`  
 `cd ~/dotfiles; and stow nvim`  
+`pip install --user --upgrade neovim-remote`  
 
 **Node**  
 `brew install nvm`  
@@ -80,23 +91,20 @@ Install [Perlbrew]
 `perlbrew switch perl-x.x.x`  
 `perlbrew install-cpanm`  
 
-**Python**  
-`brew install python`  
-`cd /usr/local/bin/ && ln -s python3 python`  
-
-**fzf**  
-`brew install fzf`  
-`/usr/local/opt/fzf/install`
-``
-
 **Ag**  
 `brew install the_silver_searcher`  
 
 **tmux**  
+`brew install libevent`  
 Install [tmux]  
 Install [tmux Plugin Manager]  
+`tmux source ~/.tmux.conf`  
 Press `prefix + I` to install plugins  
 `cd ~/dotfiles; and stow tmux`  
+
+**go**  
+`brew install go`  
+`mkdir -p ~/go/bin`  
 
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
