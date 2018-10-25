@@ -1,3 +1,3 @@
 function cd_yourpalmark
-	cd ~/Documents/Projects/personal/yourpalmark/projects/
+	cd ~/Documents/Projects/personal/yourpalmark/
 end

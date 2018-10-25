@@ -3,22 +3,36 @@ set shell=/bin/bash
 " }}}
 
 " Minpac {{{
-packadd minpac
-call minpac#init()
-command! PackUpdate call minpac#update()
-command! PackClean call minpac#clean()
-" }}}
+function! PackInit() abort
+    packadd minpac
+    call minpac#init()
 
-" Minpac Start Plugins {{{
-call minpac#add('altercation/vim-colors-solarized')
-call minpac#add('jiangmiao/auto-pairs')
-call minpac#add('mileszs/ack.vim')
-call minpac#add('tpope/vim-unimpaired')
-" }}}
+    " Minpac Opt Plugins {{{
+    call minpac#add('k-takata/minpac', {'type': 'opt'})
+    call minpac#add('tpope/vim-scriptease', {'type': 'opt'})
+    " }}}
 
-" Minpac Opt Plugins {{{
-call minpac#add('k-takata/minpac', {'type': 'opt'})
-call minpac#add('tpope/vim-scriptease', {'type': 'opt'})
+    " Minpac Start Plugins {{{
+    call minpac#add('altercation/vim-colors-solarized')
+    call minpac#add('jiangmiao/auto-pairs')
+    call minpac#add('mileszs/ack.vim')
+    call minpac#add('tpope/vim-unimpaired')
+    " }}}
+endfunction
+
+command! PackUpdate call PackInit() | call minpac#update('', {'do': 'call minpac#status()'})
+command! PackClean  call PackInit() | call minpac#clean()
+command! PackStatus call PackInit() | call minpac#status()
+
+function! PackList(...)
+    call PackInit()
+    return join(sort(keys(minpac#getpluglist())), "\n")
+endfunction
+
+command! -nargs=1 -complete=custom,PackList
+    \ PackOpenDir call PackInit() | call term_start(&shell,
+    \    {'cwd': minpac#getpluginfo(<q-args>).dir,
+    \     'term_finish': 'close'})
 " }}}
 
 " Spaces & Tabs {{{

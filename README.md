@@ -27,14 +27,14 @@ Install [Homebrew]
 `brew install git`  
 
 **dotfiles**  
-`git clone git@github.com:yourpalmark/dotfiles.git ~/`  
+`cd ~/ && git clone git@github.com:yourpalmark/dotfiles.git`  
 
 **Git**  
 `cd ~/dotfiles && stow git`  
 
 **Python**  
 `brew install python`  
-`cd /usr/local/bin/; and ln -s python3 python; and ln -s pip3 pip`  
+`cd /usr/local/bin/ && ln -s python3 python && ln -s pip3 pip`  
 
 **fzf**  
 `brew install fzf`  
@@ -58,13 +58,12 @@ Install [Homebrew]
 Install [Solarized for ITerm2]  
 `brew tap caskroom/fonts`  
 `brew cask install font-meslo-nerd-font`  
-`omf theme agnoster`  
+`omf install agnoster`  
 Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased  
 
 **Vim**  
 `brew install vim --with-override-system-vi`  
 `git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac`  
-Setup [YouCompleteMe]  
 `cd ~/dotfiles; and stow vim`  
 `vim`  
 >`:PackUpdate`  
@@ -98,9 +97,9 @@ Install [Perlbrew]
 `brew install libevent`  
 Install [tmux]  
 Install [tmux Plugin Manager]  
+`cd ~/dotfiles; and stow tmux`  
 `tmux source ~/.tmux.conf`  
 Press `prefix + I` to install plugins  
-`cd ~/dotfiles; and stow tmux`  
 
 **go**  
 `brew install go`  
@@ -113,4 +112,3 @@ Press `prefix + I` to install plugins
    [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
-   [YouCompleteMe]: https://github.com/Valloric/YouCompleteMe
