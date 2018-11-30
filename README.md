@@ -34,7 +34,7 @@ Install [Homebrew]
 
 **Python**  
 `brew install python`  
-`cd /usr/local/bin/ && ln -s python3 python && ln -s pip3 pip`  
+`brew install python@2`  
 
 **fzf**  
 `brew install fzf`  
@@ -77,9 +77,14 @@ Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased
 `brew install nvm`  
 `mkdir ~/.nvm`  
 `omf install https://github.com/edc/bass`  
-`nvm install node`
-`nvm use node`
-`brew install yarn --without-node`
+`nvm install node`  
+`nvm use node`  
+`brew install yarn --without-node`  
+`npm install -g typescript`  
+`npm install -g eslint`  
+
+**Bash**  
+`cd ~/dotfiles; and stow bash`  
 
 **Perl**  
 Install [Perlbrew]  

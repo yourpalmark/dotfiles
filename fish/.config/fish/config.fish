@@ -4,6 +4,7 @@ set -g theme_nerd_fonts yes
 
 # nvm
 set -Ux NVM_DIR ~/.nvm
+bass source (brew --prefix nvm)/nvm.sh
 
 # Perlbrew
 set PATH ~/perl5/perlbrew/bin $PATH
