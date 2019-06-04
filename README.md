@@ -36,6 +36,10 @@ Install [Homebrew]
 `brew install python`  
 `brew install python@2`  
 
+**Scala**  
+`brew cask install java`  
+`brew install scala`  
+
 **fzf**  
 `brew install fzf`  
 `/usr/local/opt/fzf/install`  
