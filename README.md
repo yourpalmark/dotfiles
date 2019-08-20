@@ -86,6 +86,7 @@ Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased
 `brew install yarn --ignore-dependencies`  
 `npm install -g typescript`  
 `npm install -g eslint`  
+`npm install -g jest`  
 
 **Bash**  
 `cd ~/dotfiles; and stow bash`  
