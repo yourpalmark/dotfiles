@@ -34,7 +34,11 @@ Install [Homebrew]
 
 **Python**  
 `brew install python`  
-`brew install python@2`  
+
+**Anaconda**  
+`brew cask install anaconda`  
+`conda update --all`  
+`conda install -c conda-forge jupyterlab`  
 
 **Scala**  
 `brew cask install java`  
