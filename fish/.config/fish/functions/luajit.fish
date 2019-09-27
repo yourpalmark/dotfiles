@@ -1,3 +1,3 @@
 function luajit
-	rlwrap luajit
+	rlwrap luajit $argv
 end
