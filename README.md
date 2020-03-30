@@ -41,7 +41,7 @@ Install [Homebrew]
 `conda install -c conda-forge jupyterlab`  
 
 **Scala**  
-`brew cask install java`  
+`brew cask install adoptopenjdk --no-quarantine`  
 `brew install scala`  
 
 **fzf**  
