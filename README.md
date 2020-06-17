@@ -32,6 +32,15 @@ Install [Homebrew]
 **Git**  
 `cd ~/dotfiles && stow git`  
 
+**Lua**  
+`mkdir ~/.luaver`  
+`git clone https://github.com/DhavalKapil/luaver.git ~/.luaver`  
+`luaver install 5.1.5`  
+`luaver use 5.1.5`  
+`export MACOSX_DEPLOYMENT_TARGET=10.6`  
+`luaver install-luajit 2.0.5`  
+`luaver use-luajit 2.0.5`  
+
 **Python**  
 `brew install python`  
 

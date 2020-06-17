@@ -18,11 +18,6 @@ set -x -U GOPATH $HOME/go
 set -x -U GOROOT /usr/local/opt/go/libexec
 set PATH $GOPATH/bin $GOROOT/bin $PATH
 
-# OpenResty
-set PATH /usr/local/openresty/nginx/sbin $PATH
-set PATH /usr/local/openresty/bin $PATH
-set PATH /usr/local/openresty/luajit/bin $PATH
-
 # Anaconda
 if not type -q __fish_prompt_orig
     eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
