@@ -8,7 +8,7 @@ bass source (brew --prefix nvm)/nvm.sh
 
 # Perlbrew
 set PATH ~/perl5/perlbrew/bin $PATH
-. ~/perl5/perlbrew/etc/perlbrew.fish
+source ~/perl5/perlbrew/etc/perlbrew.fish
 
 # pip --user bin
 set PATH ~/Library/Python/3.7/bin $PATH
@@ -17,6 +17,9 @@ set PATH ~/Library/Python/3.7/bin $PATH
 set -x -U GOPATH $HOME/go
 set -x -U GOROOT /usr/local/opt/go/libexec
 set PATH $GOPATH/bin $GOROOT/bin $PATH
+
+#gcloud
+source (brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 
 # Anaconda
 if not type -q __fish_prompt_orig

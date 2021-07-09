@@ -128,6 +128,9 @@ Press `prefix + I` to install plugins
 `luaver install-luajit 2.0.5`  
 `luaver use-luajit 2.0.5`  
 
+**gcloud**  
+`brew install --cask google-cloud-sdk`  
+
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
    [Homebrew]: https://brew.sh/
