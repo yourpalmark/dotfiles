@@ -56,6 +56,7 @@ Install [Homebrew]
 
 `chsh -s /opt/homebrew/bin/fish`  
 `fish`  
+`mv ~/.config/fish/ ~/Desktop/`  
 `cd ~/dotfiles; and stow fish`  
 
 **Oh My Fish**  
