@@ -88,7 +88,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `omf install https://github.com/edc/bass`  
 `nvm install node`  
 `nvm use node`  
-`brew install yarn --ignore-dependencies`  
+`brew install yarn`  
 `npm install -g typescript`  
 `npm install -g eslint`  
 `npm install -g jest`  
