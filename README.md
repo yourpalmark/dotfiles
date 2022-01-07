@@ -71,7 +71,7 @@ Install [Solarized for ITerm2]
 Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased  
 
 **Vim**  
-`brew install vim --with-override-system-vi`  
+`brew install vim`  
 `git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac`  
 `cd ~/dotfiles; and stow vim`  
 `vim`  
