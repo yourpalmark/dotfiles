@@ -46,7 +46,7 @@ Install [Homebrew]
 
 **fzf**  
 `brew install fzf`  
-`/usr/local/opt/fzf/install`  
+`$(brew --prefix)/opt/fzf/install`  
 
 **Fish**  
 `brew install fish`  
