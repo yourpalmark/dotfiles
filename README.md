@@ -65,10 +65,10 @@ Install [Homebrew]
 
 **Theme**  
 Install [Solarized for ITerm2]  
-`brew tap caskroom/fonts`  
-`brew install --cask font-meslo-nerd-font`  
+`brew tap homebrew/cask-fonts`  
+`brew install --cask font-meslo-lg-nerd-font`  
 `omf install agnoster`  
-Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased  
+Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased  
 
 **Vim**  
 `brew install vim --with-override-system-vi`  
