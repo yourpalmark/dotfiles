@@ -60,7 +60,7 @@ Install [Homebrew]
 `cd ~/dotfiles; and stow fish`  
 
 **Oh My Fish**  
-`curl -L https://get.oh-my.fish | fish`  
+`curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`  
 `omf update`  
 
 **Theme**  
