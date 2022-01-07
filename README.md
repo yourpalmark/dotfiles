@@ -52,9 +52,9 @@ Install [Homebrew]
 `brew install fish`  
 `sudo vim /etc/shells`  
 >Add  
-`/usr/local/bin/fish`  
+`/opt/homebrew/bin/fish`  
 
-`chsh -s /usr/local/bin/fish`  
+`chsh -s /opt/homebrew/bin/fish`  
 `fish`  
 `cd ~/dotfiles; and stow fish`  
 
