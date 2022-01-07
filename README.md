@@ -36,12 +36,12 @@ Install [Homebrew]
 `brew install python`  
 
 **Anaconda**  
-`brew cask install anaconda`  
+`brew install --cask anaconda`  
 `conda update --all`  
 `conda install -c conda-forge jupyterlab`  
 
 **Scala**  
-`brew cask install adoptopenjdk --no-quarantine`  
+`brew install --cask adoptopenjdk --no-quarantine`  
 `brew install scala`  
 
 **fzf**  
@@ -65,7 +65,7 @@ Install [Homebrew]
 **Theme**  
 Install [Solarized for ITerm2]  
 `brew tap caskroom/fonts`  
-`brew cask install font-meslo-nerd-font`  
+`brew install --cask font-meslo-nerd-font`  
 `omf install agnoster`  
 Set ITerm2 font to `MesloLGM Nerd Font` 10pt anti-aliased  
 
