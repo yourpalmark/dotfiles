@@ -27,5 +27,5 @@ source (brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fi
 
 # Anaconda
 if not type -q __fish_prompt_orig
-    eval /usr/local/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+    eval /opt/homebrew/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 end
