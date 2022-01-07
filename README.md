@@ -110,6 +110,7 @@ Install [Perlbrew]
 
 **tmux**  
 `brew install libevent`  
+`brew install automake`  
 Install [tmux]  
 Install [tmux Plugin Manager]  
 `cd ~/dotfiles; and stow tmux`  
