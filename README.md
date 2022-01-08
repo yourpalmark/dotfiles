@@ -109,9 +109,7 @@ Install [Perlbrew]
 `brew install the_silver_searcher`  
 
 **tmux**  
-`brew install libevent`  
-`brew install automake`  
-Install [tmux]  
+`brew install tmux`  
 Install [tmux Plugin Manager]  
 `cd ~/dotfiles; and stow tmux`  
 `tmux source ~/.tmux.conf`  
