@@ -40,7 +40,7 @@ function luaver
 
         echo | bash -c "$target_cmd"
 
-        ln -sf "$bin_path"/* /usr/local/bin
+        sudo ln -sf "$bin_path"/* /usr/local/bin
 
     # All other cases, pass to command as is
     case '*'

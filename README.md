@@ -119,14 +119,17 @@ Press `prefix + I` to install plugins
 `brew install go`  
 `mkdir -p ~/go/bin`  
 
+<!---
 **Lua**  
 `mkdir ~/.luaver`  
 `git clone https://github.com/DhavalKapil/luaver.git ~/.luaver`  
-`luaver install 5.1.5`  
-`luaver use 5.1.5`  
-`export MACOSX_DEPLOYMENT_TARGET=10.6`  
-`luaver install-luajit 2.0.5`  
-`luaver use-luajit 2.0.5`  
+`luaver install x.x.x`  
+`luaver use x.x.x`  
+`set OSVersion (sw_vers -productVersion)`  
+`export MACOSX_DEPLOYMENT_TARGET=$OSVersion`  
+`luaver install-luajit x.x.x`  
+`luaver use-luajit x.x.x`  
+-->
 
 **gcloud**  
 `brew install --cask google-cloud-sdk`  
