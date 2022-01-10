@@ -27,7 +27,7 @@ Install [Homebrew]
 `brew install git`  
 
 **dotfiles**  
-`cd ~/ && git clone git@github.com:yourpalmark/dotfiles.git`  
+`cd ~/ && git clone https://github.com/yourpalmark/dotfiles.git`  
 
 **Git**  
 `cd ~/dotfiles && stow git`  
