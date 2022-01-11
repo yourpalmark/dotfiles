@@ -25,6 +25,8 @@ Install [Homebrew]
 
 **Git**  
 `brew install git`  
+`brew tap microsoft/git`  
+`brew install --cask git-credential-manager-core`  
 
 **dotfiles**  
 `cd ~/ && git clone https://github.com/yourpalmark/dotfiles.git`  
