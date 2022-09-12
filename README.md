@@ -121,6 +121,9 @@ Press `prefix + I` to install plugins
 `brew install go`  
 `mkdir -p ~/go/bin`  
 
+**Docker**  
+`brew install docker --cask`  
+
 <!---
 **Lua**  
 `mkdir ~/.luaver`  
