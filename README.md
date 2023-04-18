@@ -11,6 +11,7 @@ Install [Homebrew]
 `sudo vim /etc/paths`  
 >Edit to look like this:  
 `/usr/local/bin`  
+`/System/Cryptexes/App/usr/bin`  
 `/usr/bin`  
 `/bin`  
 `/usr/local/sbin`  
