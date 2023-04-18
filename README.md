@@ -35,22 +35,6 @@ Install [Homebrew]
 **Git**  
 `cd ~/dotfiles && stow git`  
 
-**Python**  
-`brew install python`  
-
-**Anaconda**  
-`brew install --cask anaconda`  
-`conda update --all`  
-`conda install -c conda-forge jupyterlab`  
-
-**Scala**  
-`brew install --cask adoptopenjdk --no-quarantine`  
-`brew install scala`  
-
-**fzf**  
-`brew install fzf`  
-`$(brew --prefix)/opt/fzf/install`  
-
 **Fish**  
 `brew install fish`  
 `sudo vim /etc/shells`  
@@ -72,6 +56,22 @@ Install [Solarized for ITerm2]
 `brew install --cask font-meslo-lg-nerd-font`  
 `omf install agnoster`  
 Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased  
+
+**Python**  
+`brew install python`  
+
+**Anaconda**  
+`brew install --cask anaconda`  
+`conda update --all`  
+`conda install -c conda-forge jupyterlab`  
+
+**Scala**  
+`brew install --cask adoptopenjdk --no-quarantine`  
+`brew install scala`  
+
+**fzf**  
+`brew install fzf`  
+`$(brew --prefix)/opt/fzf/install`  
 
 **Vim**  
 `brew install vim`  
