@@ -71,7 +71,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 
 **fzf**  
 `brew install fzf`  
-`$(brew --prefix)/opt/fzf/install`  
+`/opt/homebrew/opt/fzf/install`  
 
 **Vim**  
 `brew install vim`  
