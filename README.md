@@ -57,6 +57,9 @@ Install [Solarized for ITerm2]
 `omf install agnoster`  
 Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased  
 
+**Fig**  
+`brew install fig`  
+
 **Python**  
 `brew install python`  
 
