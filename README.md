@@ -116,7 +116,7 @@ Install [Perlbrew]
 `brew install tmux`  
 Install [tmux Plugin Manager]  
 `cd ~/dotfiles; and stow tmux`  
-`tmux source ~/.tmux.conf`  
+`tmux`  
 Press `prefix + I` to install plugins  
 
 **go**  
