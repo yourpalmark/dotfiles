@@ -1,3 +1,3 @@
 function cd_yourpalmark
-	cd ~/Documents/Projects/personal/yourpalmark/
+	cd ~/Library/CloudStorage/GoogleDrive-yourpalmark@gmail.com/My\ Drive/
 end
