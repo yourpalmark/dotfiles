@@ -49,6 +49,7 @@ Install [Homebrew]
 **Oh My Fish**  
 `curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`  
 `omf update`  
+`omf install sublime`  
 
 **Theme**  
 Install [Solarized for ITerm2]  
@@ -61,7 +62,11 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `brew install fig`  
 
 **Python**  
-`brew install python`  
+`brew install pyenv`  
+`set -Ux PYENV_ROOT $HOME/.pyenv`  
+`fish_add_path $PYENV_ROOT/bin`  
+`pyenv install x.x.x`  
+`pyenv global x.x.x`  
 
 **Anaconda**  
 `brew install --cask anaconda`  
