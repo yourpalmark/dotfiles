@@ -75,8 +75,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `conda config --set auto_activate_base false`  
 
 **Scala**  
-`brew install --cask adoptopenjdk --no-quarantine`  
-`brew install scala`  
+`brew install coursier/formulas/coursier && cs setup`  
 
 **fzf**  
 `brew install fzf`  
