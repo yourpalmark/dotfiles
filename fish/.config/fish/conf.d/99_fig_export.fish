@@ -1,1 +1,0 @@
-/Users/muw0008/fig-export/dotfiles/dotfile.fish
