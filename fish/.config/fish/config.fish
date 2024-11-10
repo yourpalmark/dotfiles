@@ -34,6 +34,7 @@ end
 set -gx JAVA_HOME "/Users/muw0008/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_mac_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7/Contents/Home"
 # <<< JVM installed by coursier <<<
 
+
 # >>> coursier install directory >>>
-set -gx PATH "$PATH:/Users/muw0008/Library/Application Support/Coursier/bin"
+set -gx PATH "$PATH:/Users/markwalters/Library/Application Support/Coursier/bin"
 # <<< coursier install directory <<<
