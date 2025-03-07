@@ -49,6 +49,7 @@ Install [Homebrew]
 **Oh My Fish**  
 `curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`  
 `omf update`  
+`omf install bass`  
 `omf install sublime`  
 
 **Theme**  
@@ -97,13 +98,10 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 **Node**  
 `brew install nvm`  
 `mkdir ~/.nvm`  
-`omf install https://github.com/edc/bass`  
 `nvm install node`  
 `nvm use node`  
-`brew install yarn`  
-`npm install -g typescript`  
-`npm install -g eslint`  
-`npm install -g jest`  
+`corepack enable`  
+Use pnpm in projects  
 
 **Bash**  
 `cd ~/dotfiles; and stow bash`  
