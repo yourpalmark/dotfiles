@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export --path GOPATH:/Users/markwalters/go
-SETUVAR --export GOROOT:/usr/local/opt/go/libexec
+SETUVAR --export GOROOT:/opt/homebrew/opt/go/libexec
 SETUVAR --export NVM_DIR:/Users/markwalters/\x2envm
 SETUVAR --export PYENV_ROOT:/Users/markwalters/\x2epyenv
 SETUVAR __fish_initialized:3800

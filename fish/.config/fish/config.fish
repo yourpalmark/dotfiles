@@ -19,7 +19,7 @@ pyenv init - | source
 
 # Go
 set -x -U GOPATH $HOME/go
-set -x -U GOROOT /usr/local/opt/go/libexec
+set -x -U GOROOT (brew --prefix golang)/libexec
 set PATH $GOPATH/bin $GOROOT/bin $PATH
 
 #gcloud
