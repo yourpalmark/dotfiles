@@ -1,6 +1,8 @@
 [user]
 	name = Mark Walters
 	email = mark@yourpalmark.com
+[init]
+    defaultBranch = main
 [color]
 	ui = true
 [push]
