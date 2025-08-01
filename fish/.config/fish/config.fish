@@ -7,7 +7,7 @@ set -g theme_color_scheme solarized
 set -g theme_nerd_fonts yes
 
 # nvm
-set -Ux NVM_DIR ~/.nvm
+set -x -U NVM_DIR $HOME/.nvm
 bass source (brew --prefix nvm)/nvm.sh
 
 # Perlbrew
@@ -15,6 +15,7 @@ set PATH ~/perl5/perlbrew/bin $PATH
 source ~/perl5/perlbrew/etc/perlbrew.fish
 
 # pyenv
+set -x -U PYENV_ROOT $HOME/.pyenv
 pyenv init - | source
 
 # Go
