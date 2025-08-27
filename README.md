@@ -76,6 +76,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `conda update --all`  
 `conda install -c conda-forge jupyterlab`  
 `conda config --set auto_activate_base false`  
+`conda init fish`  
 
 **Scala**  
 `brew install coursier/formulas/coursier && cs setup`  

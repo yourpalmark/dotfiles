@@ -26,6 +26,19 @@ set PATH $GOPATH/bin $GOROOT/bin $PATH
 #gcloud
 source (brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if test -f /opt/homebrew/Caskroom/miniforge/base/bin/conda
+    eval /opt/homebrew/Caskroom/miniforge/base/bin/conda "shell.fish" "hook" $argv | source
+else
+    if test -f "/opt/homebrew/Caskroom/miniforge/base/etc/fish/conf.d/conda.fish"
+        source "/opt/homebrew/Caskroom/miniforge/base/etc/fish/conf.d/conda.fish"
+    else
+        set -x PATH "/opt/homebrew/Caskroom/miniforge/base/bin" $PATH
+    end
+end
+# <<< conda initialize <<<
+
 # >>> JVM installed by coursier >>>
 set -gx JAVA_HOME "$HOME/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_mac_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7/Contents/Home"
 # <<< JVM installed by coursier <<<
@@ -34,3 +47,4 @@ set -gx JAVA_HOME "$HOME/Library/Caches/Coursier/arc/https/github.com/adoptium/t
 # >>> coursier install directory >>>
 set -gx PATH "$PATH:$HOME/Library/Application Support/Coursier/bin"
 # <<< coursier install directory <<<
+
