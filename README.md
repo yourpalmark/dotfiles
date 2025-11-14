@@ -68,7 +68,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `pyenv global x.x.x`  
 
 **PostgreSQL**  
-`brew install postgresql`  
+`brew install postgresql@18`  
 
 **Conda**  
 `brew install miniforge`  
