@@ -59,13 +59,11 @@ Install [Solarized for ITerm2]
 Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased  
 
 **Python**  
-`brew install pyenv`  
-`set -Ux PYENV_ROOT $HOME/.pyenv`  
-`fish_add_path $PYENV_ROOT/bin`  
-`brew install openssl readline sqlite3 xz zlib tcl-tk`  
-`pyenv install -l`  
-`pyenv install x.x.x`  
-`pyenv global x.x.x`  
+`brew install uv`  
+`cd ~/.config/fish/; and mkdir completions`  
+`echo 'uv generate-shell-completion fish | source' > ~/.config/fish/completions/uv.fish`  
+`echo 'uvx --generate-shell-completion fish | source' > ~/.config/fish/completions/uvx.fish`  
+`uv python install`  
 
 **PostgreSQL**  
 `brew install postgresql@18`  

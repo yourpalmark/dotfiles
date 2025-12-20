@@ -14,9 +14,8 @@ bass source (brew --prefix nvm)/nvm.sh
 set PATH ~/perl5/perlbrew/bin $PATH
 source ~/perl5/perlbrew/etc/perlbrew.fish
 
-# pyenv
-set -x -U PYENV_ROOT $HOME/.pyenv
-pyenv init - | source
+# uv
+set PATH ~/.local/bin $PATH
 
 # Go
 set -x -U GOPATH $HOME/go
