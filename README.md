@@ -101,6 +101,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `mkdir ~/.nvm`  
 `nvm install node`  
 `nvm use node`  
+`brew install corepack`  
 `corepack enable`  
 Use pnpm in projects  
 
