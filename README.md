@@ -94,7 +94,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 **Neovim**  
 `brew install neovim`  
 `cd ~/dotfiles; and stow nvim`  
-`pip install --user --upgrade neovim-remote`  
+`brew install neovim-remote`  
 
 **Node**  
 `brew install nvm`  
