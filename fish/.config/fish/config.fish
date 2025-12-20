@@ -23,7 +23,7 @@ set -x -U GOROOT (brew --prefix golang)/libexec
 set PATH $GOPATH/bin $GOROOT/bin $PATH
 
 #gcloud
-source (brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+source (brew --prefix)/Caskroom/gcloud-cli/latest/google-cloud-sdk/path.fish.inc
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
