@@ -70,7 +70,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `brew install postgresql@x`  
 
 **Conda**  
-`brew install miniforge`  
+`brew install --cask miniforge`  
 `conda update conda`  
 `conda update --all`  
 `conda install -c conda-forge jupyterlab`  
