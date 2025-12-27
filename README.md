@@ -149,6 +149,9 @@ Press `prefix + I` to install plugins
 **gcloud**  
 `brew install --cask google-cloud-sdk`  
 
+**codex**  
+`brew install --cask codex`  
+
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
    [Homebrew]: https://brew.sh/
