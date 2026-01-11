@@ -2,11 +2,39 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Key Bindings
 set -g fish_key_bindings fish_default_key_bindings
 
 # Theme
 set -g theme_color_scheme solarized
 set -g theme_nerd_fonts yes
+set -g fish_color_autosuggestion 555\x1ebrblack
+set -g fish_color_cancel \x2dr
+set -g fish_color_command 005fd7
+set -g fish_color_comment 990000
+set -g fish_color_cwd green
+set -g fish_color_cwd_root red
+set -g fish_color_end 009900
+set -g fish_color_error ff0000
+set -g fish_color_escape 00a6b2
+set -g fish_color_history_current \x2d\x2dbold
+set -g fish_color_host normal
+set -g fish_color_host_remote yellow
+set -g fish_color_normal normal
+set -g fish_color_operator 00a6b2
+set -g fish_color_param 00afff
+set -g fish_color_quote 999900
+set -g fish_color_redirection 00afff
+set -g fish_color_search_match white\x1e\x2d\x2dbackground\x3dbrblack
+set -g fish_color_selection white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+set -g fish_color_status red
+set -g fish_color_user brgreen
+set -g fish_color_valid_path \x2d\x2dunderline
+set -g fish_pager_color_completion \x1d
+set -g fish_pager_color_description B3A06D\x1eyellow
+set -g fish_pager_color_prefix normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+set -g fish_pager_color_progress brwhite\x1e\x2d\x2dbackground\x3dcyan
+set -g fish_pager_color_selected_background \x2dr
 
 # nvm
 set -x -U NVM_DIR $HOME/.nvm
