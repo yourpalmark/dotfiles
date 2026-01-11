@@ -36,8 +36,11 @@ set -g fish_pager_color_prefix normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 set -g fish_pager_color_progress brwhite\x1e\x2d\x2dbackground\x3dcyan
 set -g fish_pager_color_selected_background \x2dr
 
+# Java
+set -gx JAVA_HOME (/usr/libexec/java_home)
+
 # nvm
-set -x -U NVM_DIR $HOME/.nvm
+set -gx NVM_DIR $HOME/.nvm
 bass source (brew --prefix nvm)/nvm.sh
 
 # Perlbrew
@@ -48,8 +51,8 @@ source ~/perl5/perlbrew/etc/perlbrew.fish
 set PATH ~/.local/bin $PATH
 
 # Go
-set -x -U GOPATH $HOME/go
-set -x -U GOROOT (brew --prefix golang)/libexec
+set -gx GOPATH $HOME/go
+set -gx GOROOT (brew --prefix golang)/libexec
 set PATH $GOPATH/bin $GOROOT/bin $PATH
 
 #gcloud
@@ -67,13 +70,4 @@ else
     end
 end
 # <<< conda initialize <<<
-
-# >>> JVM installed by coursier >>>
-set -gx JAVA_HOME "$HOME/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_mac_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7/Contents/Home"
-# <<< JVM installed by coursier <<<
-
-
-# >>> coursier install directory >>>
-set -gx PATH "$PATH:$HOME/Library/Application Support/Coursier/bin"
-# <<< coursier install directory <<<
 

@@ -1,8 +1,5 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export --path GOPATH:/Users/markwalters/go
-SETUVAR --export GOROOT:/opt/homebrew/opt/go/libexec
-SETUVAR --export NVM_DIR:/Users/markwalters/\x2envm
-SETUVAR --export PYENV_ROOT:/Users/markwalters/\x2epyenv
 SETUVAR __fish_initialized:4300
+SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_user_paths:/opt/homebrew/bin\x1e/opt/homebrew/opt/fzf/bin\x1e\x7e/\x2elocal/bin
