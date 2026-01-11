@@ -155,7 +155,7 @@ Press `prefix + I` to install plugins
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
    [Homebrew]: https://brew.sh/
-   [Java JDK]: https://www.oracle.com/in/java/technologies/downloads/
+   [Java JDK]: https://www.oracle.com/java/technologies/downloads/
    [Perlbrew]: https://perlbrew.pl/
    [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
