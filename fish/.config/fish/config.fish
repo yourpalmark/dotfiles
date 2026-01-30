@@ -36,9 +36,6 @@ set -g fish_pager_color_prefix normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 set -g fish_pager_color_progress brwhite\x1e\x2d\x2dbackground\x3dcyan
 set -g fish_pager_color_selected_background \x2dr
 
-# Java
-set -gx JAVA_HOME (/usr/libexec/java_home)
-
 # nvm
 set -gx NVM_DIR $HOME/.nvm
 bass source (brew --prefix nvm)/nvm.sh

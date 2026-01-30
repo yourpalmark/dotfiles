@@ -51,6 +51,7 @@ Install [Homebrew]
 `omf update`  
 `omf install bass`  
 `omf install sublime`  
+`omf install sdk`  
 
 **Theme**  
 Install [Solarized for ITerm2]  
@@ -78,7 +79,8 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `conda init fish`  
 
 **Java**  
-Install the latest [Java JDK]  
+`curl -s "https://get.sdkman.io" | bash`  
+`sdk install java x.x.x-oracle`  
 
 **fzf**  
 `brew install fzf`  
@@ -155,7 +157,6 @@ Press `prefix + I` to install plugins
    [ITerm2]: https://www.iterm2.com/
    [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
    [Homebrew]: https://brew.sh/
-   [Java JDK]: https://www.oracle.com/java/technologies/downloads/
    [Perlbrew]: https://perlbrew.pl/
    [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
    [tmux]: https://github.com/tmux/tmux
