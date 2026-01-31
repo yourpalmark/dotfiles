@@ -64,7 +64,7 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `cd ~/.config/fish/; and mkdir completions`  
 `echo 'uv generate-shell-completion fish | source' > ~/.config/fish/completions/uv.fish`  
 `echo 'uvx --generate-shell-completion fish | source' > ~/.config/fish/completions/uvx.fish`  
-`uv python install`  
+`uv python install --default`  
 
 **PostgreSQL**  
 `brew search postgresql`  
