@@ -150,6 +150,7 @@ Press `prefix + I` to install plugins
 
 **gcloud**  
 `brew install --cask google-cloud-sdk`  
+`uv python install 3.11`  
 
 **codex**  
 `brew install --cask codex`  

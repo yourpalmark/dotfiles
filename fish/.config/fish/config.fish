@@ -54,6 +54,7 @@ set PATH $GOPATH/bin $GOROOT/bin $PATH
 
 #gcloud
 source (brew --prefix)/Caskroom/gcloud-cli/latest/google-cloud-sdk/path.fish.inc
+set -gx CLOUDSDK_PYTHON (which python3.11)
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -67,4 +68,3 @@ else
     end
 end
 # <<< conda initialize <<<
-
