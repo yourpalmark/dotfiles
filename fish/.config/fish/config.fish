@@ -68,3 +68,5 @@ else
     end
 end
 # <<< conda initialize <<<
+
+alias code-puppy="$HOME/.code-puppy-venv/bin/code-puppy"
