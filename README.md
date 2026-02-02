@@ -45,6 +45,7 @@ Install [Homebrew]
 `fish`  
 `mv ~/.config/fish/ ~/Desktop/`  
 `cd ~/dotfiles; and stow fish`  
+`rm -rf ~/Desktop/fish`  
 
 **Oh My Fish**  
 `curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`  
