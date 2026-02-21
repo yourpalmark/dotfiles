@@ -44,6 +44,12 @@ set modelines=1
 set autoindent
 " }}}
 
+" Clipboard {{{
+" Keep Vim's default register behavior
+" Use Ctrl+C in visual mode to copy to system clipboard
+vnoremap <C-c> "+y
+" }}}
+
 " Backspace {{{
 set backspace=2 " make backspace work like most other programs
 " }}}
