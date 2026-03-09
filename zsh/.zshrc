@@ -73,9 +73,28 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    colored-man-pages
+    z
+)
 
 source $ZSH/oh-my-zsh.sh
+
+# ─── FISH-LIKE OPTIONS ─────────────────────────────────
+setopt AUTO_CD              # Type directory name to cd into it
+setopt AUTO_PUSHD           # Push directories onto stack
+setopt PUSHD_IGNORE_DUPS    # No duplicates in dir stack
+setopt PUSHD_SILENT         # Don't print stack after pushd/popd
+
+# ─── FISH-LIKE COMPLETION STYLING ──────────────────────
+zstyle ':completion:*' menu select                          # Interactive menu
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'   # Case-insensitive
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"     # Colorize completions
+zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
+zstyle ':completion:*:messages' format '%F{purple}-- %d --%f'
+zstyle ':completion:*:warnings' format '%F{red}-- no matches --%f'
+zstyle ':completion:*' group-name ''                        # Group by type
 
 # User configuration
 
@@ -108,7 +127,34 @@ source $ZSH/oh-my-zsh.sh
 
 prompt_context() {}
 
+# ─── SYNTAX HIGHLIGHTING ───────────────────────────────
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Match fish_color_* settings from config.fish
+ZSH_HIGHLIGHT_STYLES[command]='fg=#005fd7'                  # fish_color_command
+ZSH_HIGHLIGHT_STYLES[alias]='fg=#005fd7'
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=#005fd7'
+ZSH_HIGHLIGHT_STYLES[function]='fg=#005fd7'
+ZSH_HIGHLIGHT_STYLES[arg0]='fg=#005fd7'
+ZSH_HIGHLIGHT_STYLES[default]='fg=#00afff'                  # fish_color_param
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=#999900'   # fish_color_quote
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=#999900'
+ZSH_HIGHLIGHT_STYLES[comment]='fg=#990000'                  # fish_color_comment
+ZSH_HIGHLIGHT_STYLES[redirection]='fg=#00afff'              # fish_color_redirection
+ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=#009900'         # fish_color_end
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff0000'            # fish_color_error
+ZSH_HIGHLIGHT_STYLES[path]='underline'                      # fish_color_valid_path
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=#00a6b2'                 # fish_color_operator
+
+# ─── AUTOSUGGESTIONS ───────────────────────────────────
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#555555'                # Match fish autosuggestion color
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)               # Search history first, then completions
+
+# ─── HISTORY SUBSTRING SEARCH ──────────────────────────
+source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up                  # Up arrow
+bindkey '^[[B' history-substring-search-down                # Down arrow
 
 # Q post block. Keep at the bottom of this file.
 

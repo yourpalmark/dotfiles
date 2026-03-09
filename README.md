@@ -40,6 +40,8 @@ Install [Homebrew]
 
 **Zsh**  
 `brew install zsh-syntax-highlighting`  
+`brew install zsh-autosuggestions`  
+`brew install zsh-history-substring-search`  
 `cd ~/dotfiles; and stow zsh`  
 `source ~/.zshrc`  
 
