@@ -108,9 +108,10 @@ source $ZSH/oh-my-zsh.sh
 
 prompt_context() {}
 
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Q post block. Keep at the bottom of this file.
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/muw0008/.sdkman"
 [[ -s "/Users/muw0008/.sdkman/bin/sdkman-init.sh"  ]] && source "/Users/muw0008/.sdkman/bin/sdkman-init.sh"
-

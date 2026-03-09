@@ -39,6 +39,7 @@ Install [Homebrew]
 `cd ~/dotfiles; and stow bash`  
 
 **Zsh**  
+`brew install zsh-syntax-highlighting`  
 `cd ~/dotfiles; and stow zsh`  
 `source ~/.zshrc`  
 
