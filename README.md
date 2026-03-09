@@ -35,6 +35,17 @@ Install [Homebrew]
 **Git**  
 `cd ~/dotfiles && stow git`  
 
+**Bash**  
+`cd ~/dotfiles; and stow bash`  
+
+**Zsh**  
+`cd ~/dotfiles; and stow zsh`  
+`source ~/.zshrc`  
+
+**Oh My Zsh**  
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`  
+`omz update`  
+
 **Fish**  
 `brew install fish`  
 `sudo vim /etc/shells`  
@@ -107,9 +118,6 @@ Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased
 `brew install corepack`  
 `corepack enable`  
 Use pnpm in projects  
-
-**Bash**  
-`cd ~/dotfiles; and stow bash`  
 
 **Perl**  
 Install [Perlbrew]  
