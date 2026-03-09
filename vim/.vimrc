@@ -55,9 +55,9 @@ set backspace=2 " make backspace work like most other programs
 " }}}
 
 " Cursor {{{
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_SR = "\<Esc>]50;CursorShape=2\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+let &t_SI = "\e[6 q"   " Insert mode: steady bar
+let &t_SR = "\e[4 q"   " Replace mode: steady underline
+let &t_EI = "\e[2 q"   " Normal mode: steady block
 " }}}
 
 " Lines {{{
