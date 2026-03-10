@@ -1,6 +1,3 @@
-# Q pre block. Keep at the top of this file.
-[ -f ~/.fzf.zsh  ] && source ~/.fzf.zsh
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -156,8 +153,9 @@ source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-se
 bindkey '^[[A' history-substring-search-up                  # Up arrow
 bindkey '^[[B' history-substring-search-down                # Down arrow
 
-# Q post block. Keep at the bottom of this file.
+# ─── Fuzzy Finder ──────────────────────────
+[ -f ~/.fzf.zsh  ] && source ~/.fzf.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/muw0008/.sdkman"
-[[ -s "/Users/muw0008/.sdkman/bin/sdkman-init.sh"  ]] && source "/Users/muw0008/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh"  ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
