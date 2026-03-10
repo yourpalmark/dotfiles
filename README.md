@@ -1,7 +1,7 @@
 # Shell Setup
 
-**ITerm2**  
-Install [ITerm2]  
+**iTerm2**  
+Install [iTerm2]  
 
 **Homebrew**  
 Install [Homebrew]  
@@ -64,15 +64,21 @@ Install [Homebrew]
 **Oh My Fish**  
 `curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`  
 `omf update`  
-`omf install bass`  
-`omf install sublime`  
-`omf install sdk`  
-
-**Theme**  
-Install [Solarized for ITerm2]  
-`brew install --cask font-meslo-lg-nerd-font`  
 `omf install agnoster`  
-Set ITerm2 font to `MesloLGM Nerd Font Mono` 10pt anti-aliased  
+`omf install bass`  
+`omf install sdk`  
+`omf install sublime`  
+
+**iTerm2 Settings**  
+`brew install --cask font-meslo-lg-nerd-font`  
+Settings -> Profiles  
+-> Colors  
+Enable "Use separate colors for light and dark mode"  
+Color Preset: Solarized  
+-> Text  
+Font: `MesloLGL Nerd Font Mono` 10pt anti-aliased  
+-> Window  
+New windows: 165 x 50
 
 **Python**  
 `brew install uv`  
@@ -164,13 +170,7 @@ Press `prefix + I` to install plugins
 `brew install --cask google-cloud-sdk`  
 `uv python install 3.11`  
 
-**codex**  
-`brew install --cask codex`  
-
-   [ITerm2]: https://www.iterm2.com/
-   [Solarized for ITerm2]: https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+   [iTerm2]: https://www.iterm2.com/
    [Homebrew]: https://brew.sh/
    [Perlbrew]: https://perlbrew.pl/
-   [Oh My Fish]: https://github.com/oh-my-fish/oh-my-fish
-   [tmux]: https://github.com/tmux/tmux
    [tmux Plugin Manager]: https://github.com/tmux-plugins/tpm
