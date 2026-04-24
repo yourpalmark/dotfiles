@@ -52,9 +52,12 @@ set -gx GOPATH $HOME/go
 set -gx GOROOT (brew --prefix golang)/libexec
 set PATH $GOPATH/bin $GOROOT/bin $PATH
 
-#gcloud
+# Google Cloud
 source (brew --prefix)/Caskroom/gcloud-cli/latest/google-cloud-sdk/path.fish.inc
 set -gx CLOUDSDK_PYTHON (which python3.11)
+
+# Obsidian
+set PATH /Applications/Obsidian.app/Contents/MacOS $PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -70,3 +73,6 @@ end
 # <<< conda initialize <<<
 
 alias code-puppy="$HOME/.code-puppy-venv/bin/code-puppy"
+
+# Added by Wibey CLI installation
+export BUN_INSTALL_CACHE_DIR="$HOME/.local/share/bun/cache"
