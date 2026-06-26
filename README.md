@@ -75,6 +75,7 @@ Settings -> Profiles
 -> Colors  
 Enable "Use separate colors for light and dark mode"  
 Color Preset: Solarized  
+Minimum Contrast: 30  
 -> Text  
 Font: `MesloLGL Nerd Font Mono` 10pt anti-aliased  
 -> Window  
