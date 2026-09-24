@@ -72,7 +72,3 @@ else
 end
 # <<< conda initialize <<<
 
-alias code-puppy="$HOME/.code-puppy-venv/bin/code-puppy"
-
-# Added by Wibey CLI installation
-export BUN_INSTALL_CACHE_DIR="$HOME/.local/share/bun/cache"
